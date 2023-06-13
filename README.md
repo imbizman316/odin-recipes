@@ -1,2 +1,2 @@
 # odin-recipes
-Recipes of some of my favorite foods.
+This project is an extension of my journey in the coding world.
