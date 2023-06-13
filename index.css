@@ -1,0 +1,38 @@
+image {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: darkred;
+}
+
+ul li a h2 {
+    size: 16px;
+    
+}
+
+#foods {
+    width: 400px;
+    font-size: 12px;
+    background-color: #fc9400;
+    -webkit-text-fill-color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.opener {
+    width: 400px;
+    background-color:burlywood;
+    text-align: center;
+    border-style:ridge;
+}
+
+.left {
+    text-align: left;
+}
