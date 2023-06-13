@@ -18,21 +18,35 @@ ul li a h2 {
 #foods {
     width: 400px;
     font-size: 12px;
-    background-color: #fc9400;
+    background-color:white;
     -webkit-text-fill-color: white;
+    padding: 5px;
+    border-style:inset;
 }
 
 a:link {
     text-decoration: none;
+    -webkit-text-fill-color: white;
+}
+
+a:before {
+    -webkit-text-fill-color: white;
 }
 
 .opener {
     width: 400px;
-    background-color:burlywood;
+    background-color:whitesmoke;
     text-align: center;
     border-style:ridge;
+    padding: 5px;
 }
 
 .left {
     text-align: left;
+}
+
+img {
+    width: 400px;
+    padding: 5px;
+    border-style:solid;
 }
