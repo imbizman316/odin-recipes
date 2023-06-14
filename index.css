@@ -57,10 +57,43 @@ button {
     height: 30px;
 }
 
+.bt {
+    width: 150px;
+    font-size: 20px;
+}
+
+#eatnow {
+    background-color: black;
+    color: white;
+}
+
+#later {
+    background-color: yellow;
+    border-color: black;
+}
+
 #buttonhome {
     width: 400px;
     background-color: darkgrey;
     padding: 5px;
     border-style: dotted;
     text-align: center;
+}
+
+article {
+    width: 80%;
+    background-color: aquamarine;
+    
+}
+
+.wisdom {
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#bestwisdom {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indigo;
 }
