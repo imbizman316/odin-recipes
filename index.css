@@ -26,11 +26,11 @@ ul li a h2 {
 
 a:link {
     text-decoration: none;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: black;
 }
 
 a:before {
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: black;
 }
 
 .opener {
@@ -49,4 +49,18 @@ img {
     width: 400px;
     padding: 5px;
     border-style:solid;
+}
+
+button {
+    background-color: coral;
+    font-weight: bold;
+    height: 30px;
+}
+
+#buttonhome {
+    width: 400px;
+    background-color: darkgrey;
+    padding: 5px;
+    border-style: dotted;
+    text-align: center;
 }
