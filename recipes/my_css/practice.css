@@ -1,4 +1,6 @@
-
+body {
+    background-color: lightgrey;
+}
 
 
 p,
@@ -64,4 +66,76 @@ ul {
     padding-bottom: 0;
     padding-left: 0;
     text-align: center;
+}
+
+.one {
+    border: blue 3px solid;
+    width: 500px;
+    height: 85px;
+    margin: 12px;
+    padding: 32px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: pink;
+}
+.two {
+    border:mediumvioletred 3px solid;
+    width: 520px;
+    height: 16px;
+    font-weight: bold;
+    background-color: aquamarine;
+    padding: 0px;
+}
+.three{
+    border: red 3px solid;
+    width: 260px;
+    height: 85px;
+    padding: 32px;
+    box-sizing: border-box;
+    margin: 48px;
+    margin-right: 0px;
+    background-color: antiquewhite;
+    font-weight: bold;
+    margin-left: 250px;
+    align-content: right;
+}
+
+.maincard {
+    width: 400px;
+    background-color:white;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    background-color:powderblue;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+.content {
+    background-color:powderblue;
+    margin: 5px;
+    padding: 5px;
+}
+
+.button {
+    background-color:powderblue;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.badboy {
+    display: block;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: center;
+    margin: auto;
 }
