@@ -139,3 +139,41 @@ ul {
     text-align: center;
     margin: auto;
 }
+
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+}
+
+.container > div {
+    /*flex:auto;*/
+}
+
+.home {
+    background-color: green;
+    flex: 2 1 200px;
+
+}
+
+.container .search {
+    background-color:coral;
+    flex: 1 1 200px;
+    
+}
+
+.logout {
+    background-color: green;
+    flex: 1 2 200px;
+  
+}
+
+
+
+
+
