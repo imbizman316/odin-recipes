@@ -1,0 +1,32 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    text-align: center;
+}
+
+.topmenus {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 700px;
+}
+
+.middle_title {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: sans-serif;
+    -webkit-text-fill-color: burlywood;
+    -webkit-text-stroke:  0.8px black;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
