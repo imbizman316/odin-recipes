@@ -1,0 +1,64 @@
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: purple;
+    margin: 0px;
+    padding: 7px;
+    color: white;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 30px;
+    flex:10%
+}
+
+.middle {
+    display: flex;
+    flex: 80%;
+}
+
+.mid-left {
+    background-color:darkblue;
+    width: 160px;
+    flex: 1;
+}
+
+.mid-right {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+}
+.below {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    flex: 10%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+li {
+    padding: 10px;
+}
+
+.box {
+    border: solid black 1px;
+}
+

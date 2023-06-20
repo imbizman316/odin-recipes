@@ -8,6 +8,11 @@ ul {
     padding: 0px;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .topmenus {
     display: flex;
     justify-content: space-between;
@@ -31,11 +36,11 @@ img {
 }
 
 .middle {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 900px;
 }
 
 .input {
@@ -53,10 +58,7 @@ img {
     background-color: lavender;
 }
 
-/* body {
-    display: flex;
-    flex-direction: column;
-} */
+
 
 button {
     border: none;
