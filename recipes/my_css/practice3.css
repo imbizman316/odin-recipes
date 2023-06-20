@@ -2,8 +2,10 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    width: 150px;
+    width: 170px;
     text-align: center;
+ 
+    padding: 0px;
 }
 
 .topmenus {
@@ -12,7 +14,10 @@ ul {
 }
 
 img {
-    height: 700px;
+    height: 500px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: solid black 1px;
 }
 
 .middle_title {
@@ -21,6 +26,8 @@ img {
     font-family: sans-serif;
     -webkit-text-fill-color: burlywood;
     -webkit-text-stroke:  0.8px black;
+    margin: none;
+    padding: none;
 }
 
 .middle {
@@ -28,5 +35,42 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 900px;
 }
+
+.input {
+    width: 300px;
+    margin: 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+    border: solid gray 1px;
+    height: 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: lavender;
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
+
+button {
+    border: none;
+    background-color:bisque;
+    color: black;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+
+
+
 
