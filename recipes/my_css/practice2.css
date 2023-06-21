@@ -220,12 +220,16 @@ img {
     padding: 30px;
     -webkit-text-fill-color: blue;
     border-radius: 5px;
+    transition-duration: 2s;
 }
 
 .modal-button:hover {
     background-color: blue;
     -webkit-text-fill-color: white;
+    font-size: 50px;
     border: none;
+    color: chartreuse;
+    transition-duration: 2s;
 }
 
 
