@@ -11,12 +11,14 @@ const result = document.querySelector(".result");
 
 //Get the bottom button
 const playAgain = document.querySelector(".playagain");
+playAgain.style.display = "none";
 
 //When user pushes one of the buttons,
 rockbutton.addEventListener("click",generate);
 paperbutton.addEventListener("click",generate);
 scissorbutton.addEventListener("click",generate);
-playAgain.style.display = "none";
+playAgain.addEventListener("click", replay);
+
 
 //generate a random number ranging from 0 ~ 2
 
@@ -28,8 +30,6 @@ function generate(event){
     if (randNum === 0) {randNum = "rock";}
     else if (randNum ===1) {randNum = "paper";}
     else {randNum = "scissor";}
-
-    
     
     //show their plays on the bottom.
     result.innerHTML = `<h3>Player: ${player} VS. Enemy: ${randNum}</h3>`
@@ -60,12 +60,14 @@ function showresult(outcome){
     else if (outcome === "enemy") {header.innerHTML = "<h1>AI wins!</h1>";}
     else {header.innerHTML = "<h1>It's a DRAW</h1>";}
     playAgain.style.display = "block";
-
 }
 
-function playagain() {
+function replay() {
     player = "";
     randNum = "";
+    playAgain.style.display = "none";
+    header.innerHTML = "<h1>Make a choice</h1>";
+    result.innerHTML = "<h3></h3>"
 }
 
 
