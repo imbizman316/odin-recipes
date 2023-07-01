@@ -7,6 +7,17 @@ body {
     align-items: center;
 }
 
+.playerScore,.enemyScore{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.grandtotal {
+    font-size: x-large;
+    color:blue;
+    font-weight: bold;
+}
+
 img {
     width: 500px;   
 }
